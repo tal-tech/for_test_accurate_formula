@@ -1,0 +1,293 @@
+MODULE Linux x86_64 4054F066FAFB5D687F75780D3ED081640 sym_upload
+INFO CODE_ID 66F05440FBFA685D7F75780D3ED08164D447601E
+PUBLIC 13f8 0 _init
+PUBLIC 1650 0 main
+PUBLIC 1880 0 _start
+PUBLIC 18b0 0 deregister_tm_clones
+PUBLIC 18f0 0 register_tm_clones
+PUBLIC 1940 0 __do_global_dtors_aux
+PUBLIC 1980 0 frame_dummy
+PUBLIC 1990 0 (anonymous namespace)::WriteCallback(void*, unsigned long, unsigned long, void*)
+PUBLIC 19e0 0 google_breakpad::HTTPUpload::CheckCurlLib(void*)
+PUBLIC 1a30 0 google_breakpad::HTTPUpload::CheckParameters(std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&)
+PUBLIC 1ad0 0 google_breakpad::HTTPUpload::SendRequest(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, long*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+PUBLIC 2050 0 void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [clone .isra.30]
+PUBLIC 2120 0 google_breakpad::sym_upload::TokenizeByChar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*)
+PUBLIC 2280 0 google_breakpad::sym_upload::ModuleDataForSymbolFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*)
+PUBLIC 2430 0 google_breakpad::sym_upload::CompactIdentifier(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+PUBLIC 2560 0 google_breakpad::sym_upload::Start(google_breakpad::sym_upload::Options*)
+PUBLIC 3eb0 0 std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+PUBLIC 3f10 0 std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_erase(std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*)
+PUBLIC 3f80 0 void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+PUBLIC 4200 0 void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+PUBLIC 4280 0 std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_unique_pos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+PUBLIC 4410 0 std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+PUBLIC 46d0 0 Usage(int, char const**) [clone .isra.0]
+PUBLIC 47f0 0 google_breakpad::sym_upload::Options::~Options()
+PUBLIC 4860 0 __libc_csu_init
+PUBLIC 48d0 0 __libc_csu_fini
+PUBLIC 48d4 0 _fini
+STACK CFI INIT 1880 2b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1410 230 .cfa: $rsp 16 + .ra: .cfa -8 + ^
+STACK CFI 1416 .cfa: $rsp 24 +
+STACK CFI INIT 1640 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 1990 4b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1994 $rbx: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 19c2 .cfa: $rsp 8 +
+STACK CFI 19c8 .cfa: $rsp 16 +
+STACK CFI 19ce .cfa: $rsp 8 +
+STACK CFI 19cf .cfa: $rsp 16 +
+STACK CFI INIT 19e0 43 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 19e6 $rbx: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a10 .cfa: $rsp 8 +
+STACK CFI 1a18 .cfa: $rsp 16 +
+STACK CFI 1a1b .cfa: $rsp 8 +
+STACK CFI 1a20 $rbx: $rbx
+STACK CFI INIT 1a30 92 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1a31 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1a32 $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 1a3a .cfa: $rsp 32 +
+STACK CFI 1aa4 .cfa: $rsp 24 +
+STACK CFI 1aa7 .cfa: $rsp 16 +
+STACK CFI 1aa8 .cfa: $rsp 8 +
+STACK CFI 1ab0 .cfa: $rsp 32 +
+STACK CFI 1ab6 .cfa: $rsp 24 +
+STACK CFI 1ab9 .cfa: $rsp 16 +
+STACK CFI 1aba .cfa: $rsp 8 +
+STACK CFI 1abb .cfa: $rsp 32 +
+STACK CFI INIT 1ad0 571 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1ad2 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1ad4 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 1ad9 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 1adb $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 1adf $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 1ae0 $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 1aea .cfa: $rsp 144 +
+STACK CFI 1b59 .cfa: $rsp 56 +
+STACK CFI 1b5a .cfa: $rsp 48 +
+STACK CFI 1b5b .cfa: $rsp 40 +
+STACK CFI 1b5d .cfa: $rsp 32 +
+STACK CFI 1b5f .cfa: $rsp 24 +
+STACK CFI 1b61 .cfa: $rsp 16 +
+STACK CFI 1b63 .cfa: $rsp 8 +
+STACK CFI 1b68 .cfa: $rsp 144 +
+STACK CFI 1ccc .cfa: $rsp 152 +
+STACK CFI 1cd5 .cfa: $rsp 160 +
+STACK CFI 1cfb .cfa: $rsp 152 +
+STACK CFI 1cfc .cfa: $rsp 144 +
+STACK CFI 1d34 .cfa: $rsp 152 +
+STACK CFI 1d3f .cfa: $rsp 160 +
+STACK CFI 1d63 .cfa: $rsp 152 +
+STACK CFI 1d64 .cfa: $rsp 144 +
+STACK CFI INIT 2050 c8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2052 $r12: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2053 $rbp: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 2057 $rbx: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 205e .cfa: $rsp 48 +
+STACK CFI 20c4 .cfa: $rsp 32 +
+STACK CFI 20c5 .cfa: $rsp 24 +
+STACK CFI 20c6 .cfa: $rsp 16 +
+STACK CFI 20c8 .cfa: $rsp 8 +
+STACK CFI 20d0 .cfa: $rsp 48 +
+STACK CFI INIT 3eb0 55 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3eb2 $r12: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3eb3 $rbp: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3eb4 $rbx: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 3eef .cfa: $rsp 24 +
+STACK CFI 3ef0 .cfa: $rsp 16 +
+STACK CFI 3ef2 .cfa: $rsp 8 +
+STACK CFI 3f00 .cfa: $rsp 32 +
+STACK CFI 3f01 .cfa: $rsp 24 +
+STACK CFI 3f02 .cfa: $rsp 16 +
+STACK CFI 3f04 .cfa: $rsp 8 +
+STACK CFI INIT 3f10 62 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3f17 $r12: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3f1b $rbp: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3f1c $rbx: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 3f64 .cfa: $rsp 24 +
+STACK CFI 3f65 .cfa: $rsp 16 +
+STACK CFI 3f67 .cfa: $rsp 8 +
+STACK CFI 3f70 $r12: $r12 $rbp: $rbp $rbx: $rbx
+STACK CFI INIT 3f80 277 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 3f82 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 3f84 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 3f89 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 3f8b $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 3f8f $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 3f90 $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 3f97 .cfa: $rsp 80 +
+STACK CFI 418b .cfa: $rsp 56 +
+STACK CFI 418c .cfa: $rsp 48 +
+STACK CFI 418d .cfa: $rsp 40 +
+STACK CFI 418f .cfa: $rsp 32 +
+STACK CFI 4191 .cfa: $rsp 24 +
+STACK CFI 4193 .cfa: $rsp 16 +
+STACK CFI 4195 .cfa: $rsp 8 +
+STACK CFI 41a0 .cfa: $rsp 80 +
+STACK CFI INIT 4200 73 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT 2120 157 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2122 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2124 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 2129 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 212b $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 2130 $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 2131 $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 213a .cfa: $rsp 112 +
+STACK CFI 221d .cfa: $rsp 56 +
+STACK CFI 221e .cfa: $rsp 48 +
+STACK CFI 221f .cfa: $rsp 40 +
+STACK CFI 2221 .cfa: $rsp 32 +
+STACK CFI 2223 .cfa: $rsp 24 +
+STACK CFI 2225 .cfa: $rsp 16 +
+STACK CFI 2227 .cfa: $rsp 8 +
+STACK CFI 2228 .cfa: $rsp 112 +
+STACK CFI INIT 2280 1b0 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2282 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2284 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 2286 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 2288 $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 2289 $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 228a $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 229b .cfa: $rsp 1136 +
+STACK CFI 23e3 .cfa: $rsp 56 +
+STACK CFI 23e4 .cfa: $rsp 48 +
+STACK CFI 23e5 .cfa: $rsp 40 +
+STACK CFI 23e7 .cfa: $rsp 32 +
+STACK CFI 23e9 .cfa: $rsp 24 +
+STACK CFI 23eb .cfa: $rsp 16 +
+STACK CFI 23ed .cfa: $rsp 8 +
+STACK CFI 23f0 .cfa: $rsp 1136 +
+STACK CFI INIT 2430 12d .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2432 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2434 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 2436 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 2438 $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 243c $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 243d $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 2449 .cfa: $rsp 96 +
+STACK CFI 2527 .cfa: $rsp 56 +
+STACK CFI 2528 .cfa: $rsp 48 +
+STACK CFI 2529 .cfa: $rsp 40 +
+STACK CFI 252b .cfa: $rsp 32 +
+STACK CFI 252d .cfa: $rsp 24 +
+STACK CFI 252f .cfa: $rsp 16 +
+STACK CFI 2531 .cfa: $rsp 8 +
+STACK CFI 2532 .cfa: $rsp 96 +
+STACK CFI INIT 4280 184 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4282 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4284 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 4286 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 4288 $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 4289 $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 428a $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 428e .cfa: $rsp 80 +
+STACK CFI 4348 .cfa: $rsp 56 +
+STACK CFI 434e .cfa: $rsp 48 +
+STACK CFI 434f .cfa: $rsp 40 +
+STACK CFI 4351 .cfa: $rsp 32 +
+STACK CFI 4353 .cfa: $rsp 24 +
+STACK CFI 4355 .cfa: $rsp 16 +
+STACK CFI 4357 .cfa: $rsp 8 +
+STACK CFI 4360 .cfa: $rsp 80 +
+STACK CFI 4364 .cfa: $rsp 56 +
+STACK CFI 436a .cfa: $rsp 48 +
+STACK CFI 436b .cfa: $rsp 40 +
+STACK CFI 436d .cfa: $rsp 32 +
+STACK CFI 436f .cfa: $rsp 24 +
+STACK CFI 4371 .cfa: $rsp 16 +
+STACK CFI 4373 .cfa: $rsp 8 +
+STACK CFI 4378 .cfa: $rsp 80 +
+STACK CFI 43f4 .cfa: $rsp 56 +
+STACK CFI 43fa .cfa: $rsp 48 +
+STACK CFI 43fb .cfa: $rsp 40 +
+STACK CFI 43fd .cfa: $rsp 32 +
+STACK CFI 43ff .cfa: $rsp 24 +
+STACK CFI 4401 .cfa: $rsp 16 +
+STACK CFI 4403 .cfa: $rsp 8 +
+STACK CFI INIT 4410 2b2 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4412 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4418 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 441a $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 441c $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 4420 $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 4421 $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 4428 .cfa: $rsp 80 +
+STACK CFI 44f7 .cfa: $rsp 56 +
+STACK CFI 44fb .cfa: $rsp 48 +
+STACK CFI 44fc .cfa: $rsp 40 +
+STACK CFI 44fe .cfa: $rsp 32 +
+STACK CFI 4500 .cfa: $rsp 24 +
+STACK CFI 4502 .cfa: $rsp 16 +
+STACK CFI 4504 .cfa: $rsp 8 +
+STACK CFI 4508 .cfa: $rsp 80 +
+STACK CFI 4619 .cfa: $rsp 56 +
+STACK CFI 461a .cfa: $rsp 48 +
+STACK CFI 461b .cfa: $rsp 40 +
+STACK CFI 461d .cfa: $rsp 32 +
+STACK CFI 461f .cfa: $rsp 24 +
+STACK CFI 4621 .cfa: $rsp 16 +
+STACK CFI 4623 .cfa: $rsp 8 +
+STACK CFI 4628 .cfa: $rsp 80 +
+STACK CFI 4669 .cfa: $rsp 56 +
+STACK CFI 466f .cfa: $rsp 48 +
+STACK CFI 4670 .cfa: $rsp 40 +
+STACK CFI 4672 .cfa: $rsp 32 +
+STACK CFI 4674 .cfa: $rsp 24 +
+STACK CFI 4676 .cfa: $rsp 16 +
+STACK CFI 4678 .cfa: $rsp 8 +
+STACK CFI 4680 .cfa: $rsp 80 +
+STACK CFI 4684 .cfa: $rsp 56 +
+STACK CFI 468b .cfa: $rsp 48 +
+STACK CFI 468c .cfa: $rsp 40 +
+STACK CFI 468e .cfa: $rsp 32 +
+STACK CFI 4690 .cfa: $rsp 24 +
+STACK CFI 4692 .cfa: $rsp 16 +
+STACK CFI 4694 .cfa: $rsp 8 +
+STACK CFI 46a0 .cfa: $rsp 80 +
+STACK CFI INIT 2560 1944 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 2561 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 2564 .cfa: $rbp 16 +
+STACK CFI 256c $r12: .cfa -48 + ^ $r13: .cfa -40 + ^ $r14: .cfa -32 + ^ $r15: .cfa -24 + ^
+STACK CFI 2577 $rbx: .cfa -56 + ^
+STACK CFI 26a2 .cfa: $rsp 8 +
+STACK CFI 26a8 .cfa: $rbp 16 +
+STACK CFI INIT 46d0 111 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 46d1 $rbp: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 46d2 $rbx: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 46ea .cfa: $rsp 32 +
+STACK CFI 47c9 .cfa: $rsp 24 +
+STACK CFI 47d1 .cfa: $rsp 16 +
+STACK CFI 47d2 .cfa: $rsp 8 +
+STACK CFI INIT 47f0 6a .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 47f1 $rbx: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 484f .cfa: $rsp 8 +
+STACK CFI 4858 .cfa: $rsp 16 +
+STACK CFI 4859 .cfa: $rsp 8 +
+STACK CFI INIT 1650 228 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1652 $r13: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1654 $r12: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 1658 $rbp: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 1659 $rbx: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 1663 .cfa: $rsp 224 +
+STACK CFI 1805 .cfa: $rsp 40 +
+STACK CFI 1806 .cfa: $rsp 32 +
+STACK CFI 1807 .cfa: $rsp 24 +
+STACK CFI 1809 .cfa: $rsp 16 +
+STACK CFI 180b .cfa: $rsp 8 +
+STACK CFI 180c .cfa: $rsp 224 +
+STACK CFI INIT 4860 65 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 4862 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 4864 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 4869 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 486b $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 4873 $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 487b $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 4888 .cfa: $rsp 64 +
+STACK CFI 48ba .cfa: $rsp 56 +
+STACK CFI 48bb .cfa: $rsp 48 +
+STACK CFI 48bc .cfa: $rsp 40 +
+STACK CFI 48be .cfa: $rsp 32 +
+STACK CFI 48c0 .cfa: $rsp 24 +
+STACK CFI 48c2 .cfa: $rsp 16 +
+STACK CFI 48c4 .cfa: $rsp 8 +
+STACK CFI INIT 48d0 2 .cfa: $rsp 8 + .ra: .cfa -8 + ^

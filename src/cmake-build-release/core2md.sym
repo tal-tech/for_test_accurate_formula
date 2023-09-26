@@ -1,0 +1,49 @@
+MODULE Linux x86_64 F70A49A643EA5C33AD1160EAA504865F0 core2md
+INFO CODE_ID A6490AF7EA43335CAD1160EAA504865F0B37FC64
+PUBLIC d40 0 _init
+PUBLIC e10 0 main
+PUBLIC e90 0 _start
+PUBLIC ec0 0 deregister_tm_clones
+PUBLIC f00 0 register_tm_clones
+PUBLIC f50 0 __do_global_dtors_aux
+PUBLIC f90 0 frame_dummy
+PUBLIC fa0 0 WriteMinidumpFromCore(char const*, char const*, char const*)
+PUBLIC 1140 0 __libc_csu_init
+PUBLIC 11b0 0 __libc_csu_fini
+PUBLIC 11b4 0 _fini
+STACK CFI INIT e90 2b .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT d60 a0 .cfa: $rsp 16 + .ra: .cfa -8 + ^
+STACK CFI d66 .cfa: $rsp 24 +
+STACK CFI INIT e00 8 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI INIT fa0 193 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI fa2 $r13: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI fa4 $r12: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI fac $rbp: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI fad $rbx: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI fbf .cfa: $rsp 448 +
+STACK CFI 10bd .cfa: $rsp 40 +
+STACK CFI 10be .cfa: $rsp 32 +
+STACK CFI 10bf .cfa: $rsp 24 +
+STACK CFI 10c1 .cfa: $rsp 16 +
+STACK CFI 10c3 .cfa: $rsp 8 +
+STACK CFI 10c4 .cfa: $rsp 448 +
+STACK CFI INIT e10 76 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI e14 .cfa: $rsp 16 +
+STACK CFI e42 .cfa: $rsp 8 +
+STACK CFI e43 .cfa: $rsp 16 +
+STACK CFI INIT 1140 65 .cfa: $rsp 8 + .ra: .cfa -8 + ^
+STACK CFI 1142 $r15: .cfa -16 + ^ .cfa: $rsp 16 +
+STACK CFI 1144 $r14: .cfa -24 + ^ .cfa: $rsp 24 +
+STACK CFI 1149 $r13: .cfa -32 + ^ .cfa: $rsp 32 +
+STACK CFI 114b $r12: .cfa -40 + ^ .cfa: $rsp 40 +
+STACK CFI 1153 $rbp: .cfa -48 + ^ .cfa: $rsp 48 +
+STACK CFI 115b $rbx: .cfa -56 + ^ .cfa: $rsp 56 +
+STACK CFI 1168 .cfa: $rsp 64 +
+STACK CFI 119a .cfa: $rsp 56 +
+STACK CFI 119b .cfa: $rsp 48 +
+STACK CFI 119c .cfa: $rsp 40 +
+STACK CFI 119e .cfa: $rsp 32 +
+STACK CFI 11a0 .cfa: $rsp 24 +
+STACK CFI 11a2 .cfa: $rsp 16 +
+STACK CFI 11a4 .cfa: $rsp 8 +
+STACK CFI INIT 11b0 2 .cfa: $rsp 8 + .ra: .cfa -8 + ^

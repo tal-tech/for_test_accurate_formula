@@ -1,0 +1,14 @@
+src/AIBA-Linux-AutomaticBox-1.0-20230506154128.tar.gz
+src/formula/lib/libtorch_cuda.so
+src/formula/lib/libtorch_cpu.so
+src/formula/lib/libtorch_addons.so
+src/formula/lib/libcurand.so.10.0
+src/formula/lib/libcusparse.so.10.0
+src/formula/lib/libcufft.so.10.0
+src/formula/lib/libnccl.so.2
+src/formula/lib/libcublas.so.10.0
+src/formula/lib/libral_base_context.so
+src/package/lib/ubuntu-cuda10/libnvinfer.so.6
+src/package/lib/ubuntu-cuda10/libcublas.so.10.0
+src/3rdParty/ubuntu-cuda10/libnvinfer.so.6
+src/3rdParty/ubuntu-cuda10/libcublas.so.10.0
